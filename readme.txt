@@ -1,2 +1,3 @@
 API文档详细介绍了各特征的计算方式和数据来源
 主执行入口为excute.py
+运行时只需配置Config文件即可，其中为提升爬虫速度使用的token可自行注册多个github账号token获取
