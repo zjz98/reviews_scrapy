@@ -71,10 +71,8 @@ class Config:
     # token库，用来访问restapi
     # 每个token在一小时内可访问5000次，可进行配置叠加性能
     # token有过期时间，过期后在github账号里重新生成
+    # 注意，由于review数据过多，运行代码前一定要多注册一些github账号并生成token添加在这里
     token_list = [
-         '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', #511581065@qq.com
-        # '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', #juzzhang@gmail.com
-         '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', #juzzhang@outlook.com
          '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', #1940752402@qq.com
          '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', #forScrapy1@outlook.com
          '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', #forScrapy2@outlook.com
